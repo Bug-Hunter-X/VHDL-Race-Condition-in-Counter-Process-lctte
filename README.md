@@ -1,0 +1,1 @@
+This repository demonstrates a common race condition in VHDL code and its solution. The bug involves a counter process where the 'enable' signal is not properly synchronized with the clock, leading to unpredictable behavior. The solution introduces a synchronous process to properly handle the 'enable' signal.
